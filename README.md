@@ -128,14 +128,47 @@ Spatial visualization helps identify:
 ## Project Structure
 
 ```text
-├── data/
-├── notebooks/
-├── scripts/
-├── visualizations/
-├── gis_maps/
-├── results/
+Correlation-Mapping-Sanitation-TN/
+│
+├── README.md
+├── DATASET.md
+├── requirements.txt
+│
+├── datasets/
+│   ├── TamilNadu_38District_Dataset.xlsx
+│   ├── Expanded_Sanitation_Dataset.xlsx
+│   ├── TamilNadu_GIS_Ready.csv
+│   └── TamilNadu_ML_1000Records.csv
+│
 ├── paper/
-└── README.md
+│   ├── MPCON_FINAL_IEEE.pdf
+│   └── IEEE_Correlation_Mapping_of_Sanitation_Access.pdf
+│
+├── presentation/
+│   ├── Research_Paper_Presentation.pptx
+│   └── MPCON_FINAL_SCRIPT.pdf
+│
+├── code/
+│   └── codes.docx
+│
+├── visualizations/
+│   ├── Correlation_Matrix.png
+│   ├── District_Wise_Toilet_Coverage.png
+│   ├── GIS_Correlation_Mapping.png
+│   ├── Toilet_Coverage_vs_IMR.png
+│   ├── TamilNadu_Toilet_Coverage_Trend.png
+│   ├── Data_Analysis.png
+│   └── Table.png
+│
+├── results/
+│   ├── Correlation_Analysis.md
+│   ├── GIS_Insights.md
+│   └── Findings.md
+│
+└── docs/
+    ├── Methodology.md
+    ├── Future_Work.md
+    └── References.md
 ```
 
 ## Conclusion
