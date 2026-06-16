@@ -295,6 +295,128 @@ Future extensions of this research include:
 * Performing longitudinal sanitation trend analysis.
 
 ---
+# ⚙️ Installation Guide
+
+This section explains how to set up the project environment and install all required dependencies for running the analysis, visualization, and GIS mapping workflows.
+
+## 📥 Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/Correlation-Mapping-Sanitation-TN.git
+cd Correlation-Mapping-Sanitation-TN
+```
+
+## 🐍 Create a Virtual Environment (Recommended)
+
+Creating a virtual environment helps isolate project dependencies from your system-wide Python installation.
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+## 📦 Install Dependencies
+
+Install all required Python libraries using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Launch Jupyter Notebook
+
+Start Jupyter Notebook for data analysis and visualization:
+
+```bash
+jupyter notebook
+```
+
+# 📦 Python Dependencies
+
+| Library | Purpose |
+|----------|----------|
+| Pandas | Data manipulation and analysis |
+| NumPy | Numerical computing and array operations |
+| Matplotlib | Data visualization and plotting |
+| Seaborn | Statistical visualization |
+| Scikit-Learn | Machine learning and regression analysis |
+| SciPy | Statistical computations and scientific analysis |
+| GeoPandas | Geospatial data processing and GIS analysis |
+| Folium | Interactive GIS mapping |
+| Plotly | Interactive charts and visualizations |
+| OpenPyXL | Reading and writing Excel files |
+| Jupyter | Interactive notebook environment |
+| Notebook | Notebook execution support |
+
+# 📋 requirements.txt
+
+```txt
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+geopandas>=0.14.0
+folium>=0.16.0
+plotly>=5.20.0
+openpyxl>=3.1.0
+jupyter>=1.0.0
+notebook>=7.0.0
+```
+
+# 🖥️ System Requirements
+
+| Requirement | Specification |
+|-------------|---------------|
+| Python | Version 3.10 or higher |
+| RAM | Minimum 4 GB |
+| Storage | 500 MB free space |
+| Environment | Jupyter Notebook |
+| Operating System | Windows, Linux, or macOS |
+
+# 🔧 Verification
+
+Verify that the installation was successful by checking the installed packages:
+
+```bash
+pip list
+```
+
+You can also verify Python installation:
+
+```bash
+python --version
+```
+
+Expected output:
+
+```text
+Python 3.10+
+```
+
+# 📚 Additional Notes
+
+- A virtual environment is strongly recommended to avoid dependency conflicts.
+- GIS-related libraries such as GeoPandas may require additional system packages depending on the operating system.
+- All datasets used in this project are stored in the `datasets/` directory.
+- Visual outputs and GIS maps can be found in the `visualizations/` directory.
+- Refer to `DATASET.md` for detailed dataset documentation.
+
+# ✅ Environment Ready
+
+Once the dependencies are installed and Jupyter Notebook launches successfully, the project environment is ready for data analysis, statistical modeling, and GIS-based visualization.
 
 ## 🎓 Conference Publication
 
