@@ -421,7 +421,30 @@ Once the dependencies are installed and Jupyter Notebook launches successfully, 
 ## 🎓 Conference Publication
 
 This research was prepared and presented as part of an IEEE conference submission focused on public health analytics, sanitation infrastructure assessment, and GIS-based spatial analysis.
+----
+# 📚 Conference Publication
 
+This research was successfully **presented at the IEEE International Conference on Advances in Computer Applications (ICACA 2026)** held in **March 2026**.
+
+Following peer review and acceptance, the paper was officially **published in the IEEE Xplore Digital Library**.
+---
+
+### Publication Details
+
+| Item | Details |
+|------|---------|
+| Conference | IEEE International Conference on Advances in Computer Applications (ICACA 2026) |
+| Presentation | March 2026 |
+| Publication | IEEE Xplore Digital Library |
+| Publisher | IEEE |
+| Research Area | Public Health Analytics • GIS • Data Science • Spatial Analysis |
+---
+
+### 📄 IEEE Xplore Publication
+
+🔗 https://ieeexplore.ieee.org/document/11508588
+
+If you find this research useful, please consider citing the published paper through IEEE Xplore.
 ---
 
 ## 👥 Authors
